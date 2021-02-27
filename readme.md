@@ -14,4 +14,4 @@ But I ran into problems when I tried to echo both devices to each other. Apparan
 I think i got timing issues.
 
 # Interface
-![](https://github.com/ON3JT/Arduino-CI-V/info/interface.jpg)
+![](https://github.com/ON3JT/Arduino-CI-V/blob/master/info/interface.jpg)
