@@ -6,7 +6,7 @@ However, RS-BA1 sends the TX command regardless the transceiver. It uses the 0x0
 Pedro's Github : https://github.com/on7wp/ICOM-CI-V-Arduino-Monitor
 
 # String in detail
-I just monitor the data sent from the host (computer) : \
+I just monitor the data sent from the host (computer) : 
 - TX = FE FE 00 E0 1C 00 01 FD
 - RX = FE FE 00 E0 1C 00 00 FD
 

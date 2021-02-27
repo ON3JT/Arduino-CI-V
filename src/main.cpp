@@ -9,7 +9,7 @@
 int CIV_SPEED = 9600;
 int RS232_SPEED = 9600;
 
-AltSoftSerial CAT;      // RX, TX
+AltSoftSerial CAT;     
 uint8_t read_buffer[8]; //Read buffer
 uint8_t counter = 0;
 
