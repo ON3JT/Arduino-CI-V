@@ -22,6 +22,11 @@ I think i got timing issues. I used AltSoftSerial to have a working software ser
 # Interface
 ![](https://github.com/ON3JT/Arduino-CI-V/blob/master/info/interface.jpg)
 
+# Other uses
+This code is also tested with HRD v5.24.0.36 and my Icom IC756. Remote control works as normal. TX is not available (blame HRD :-)).
+Omnirig, hmm, I made a custom ini file, seems to work with the client programm, but fails in real use (JS8call for example).
+
+
 # Resources
 More details can be found :
 - https://www.pjrc.com/teensy/td_libs_AltSoftSerial.html
