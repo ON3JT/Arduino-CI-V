@@ -10,7 +10,6 @@ I just monitor the data sent from the host (computer) :
 - TX = FE FE 00 E0 1C 00 01 FD
 - RX = FE FE 00 E0 1C 00 00 FD
 
-
 # Serial library
 One of my goals was to eliminate the use of an older RS232 port. The CI-V port is 5V TTL compatible. You can build the level converter with
 the famous MAX232 and a USB <> RS232 adaptor. But the Arduino has already the hardware. By creating a second serial port in code you can eliminate both MAX232 and USB adaptor.
@@ -18,7 +17,7 @@ the famous MAX232 and a USB <> RS232 adaptor. But the Arduino has already the ha
 But I ran into problems when I tried to echo both devices to each other. Apparantly the standard Software Serial library is interrupt driven or something like that.
 I think i got timing issues. I used AltSoftSerial to have a working software serial port with better timing. 
 
-**Attention** : Read the site, the ports this library uses are locked on D9 and D10 for the Arduino Nano.
+**Attention** : Read the site, the ports this library uses are locked on D9 (rxd) and D10 (txd) for the Arduino Nano.
 
 # Interface
 ![](https://github.com/ON3JT/Arduino-CI-V/blob/master/info/interface.jpg)
